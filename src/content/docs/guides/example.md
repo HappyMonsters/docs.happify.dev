@@ -12,6 +12,6 @@ Writing a good guide requires thinking about what your users are trying to do.
 
 # Testing Plugins
 
-Here is a youtube video 
+Here is a sample youtube video 
 
 #youtube x78KpaMu-zQ
