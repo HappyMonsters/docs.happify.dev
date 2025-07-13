@@ -16,20 +16,21 @@ import remarkSoundcloudEmbed from './src/plugins/remarkSoundcloudEmbed.js';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Happify Documentation',
+			social: [{ icon: 'github', label: 'GitHub', href: '#' }],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Documentation',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Introduction', slug: 'guides/introduction' },
+						{ label: 'Getting Started', slug: 'guides/started' },
+						{ label: 'Dashboard Overview', slug: 'guides/overview' },
 					],
 				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
+				// {
+				// 	label: 'Reference',
+				// 	autogenerate: { directory: 'reference' },
+				// },
 			],
 		}),
 	],
