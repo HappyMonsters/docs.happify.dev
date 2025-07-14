@@ -16,7 +16,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Happify Documentation",
-      social: [{ icon: "github", label: "GitHub", href: "#" }],
+      // social: [{ icon: "github", label: "GitHub", href: "#" }],
       sidebar: [
         {
           label: "Documentation",

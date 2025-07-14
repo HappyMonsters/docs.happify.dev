@@ -13,7 +13,7 @@ You can customize the appearance of Happify Wishlist in 4 different places. They
 
 Let’s see how to customize each of these fields.
 
-**App Embed (floating wishlist):**
+### App Embed (floating wishlist)
 
 Go to your theme customization
 
@@ -45,7 +45,7 @@ Changing these settings will change the appearance of this button
 ![](https://paper-attachments.dropboxusercontent.com/s_6CB2577CFA7DC257CF7F622996F62EAF37060A5E6CBF209B1010827B937B9F29_1752047765577_image.png)
 
 
-**Catalog Page**
+### Catalog Page
 
 Go to your theme customization
 
@@ -79,8 +79,7 @@ Changing these settings will change the appearance of this button
 ![](https://paper-attachments.dropboxusercontent.com/s_6CB2577CFA7DC257CF7F622996F62EAF37060A5E6CBF209B1010827B937B9F29_1752047819030_image.png)
 
 
-**Product Page**
-
+### Product Page
 
 Go to your theme customization
 
@@ -122,7 +121,7 @@ Here you can customize the following things
 - Button Dimension
 - Hover Styles
 
-**Header**
+### Header
 
 Go to your theme customization
 
