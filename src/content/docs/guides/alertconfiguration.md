@@ -11,7 +11,8 @@ Happify Wishlist supports 3 kinds of Alerts.
 
 After you have configured your SMTP and email template, you can configure the alert now. Be aware that users in your store will have to add the item to your wishlist that you want to trigger the alert for.
 
-**Configure Price Drop Alert**
+
+### Configure Price Drop Alert
 
 Go to Products from Shopify Dashboard
 
@@ -32,7 +33,7 @@ Now lower the price for this product
 
 Everyone who has this product in their wishlist will now get the Price Drop alert now.
 
-**Low Stock Alert**
+### Low Stock Alert
 
 To send low stock alert, you need to first select the low stock alert threshold, going under which will trigger this alert.
 
@@ -54,7 +55,7 @@ Now from Inventory, select the available quantity and that product will reduce i
 ![](https://paper-attachments.dropboxusercontent.com/s_6CB2577CFA7DC257CF7F622996F62EAF37060A5E6CBF209B1010827B937B9F29_1752054171543_image.png)
 
 
-**Discount Alert**
+### Discount Alert
 
 Discount alerts can be site wide or item specific. Site wide discount alerts can be configured by configuring free shipping. To configure free shipping go to Discounts tab from your shopify home page.
 
