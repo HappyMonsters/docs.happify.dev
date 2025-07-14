@@ -2,7 +2,7 @@
 title: Feature Explainer
 ---
 
-**Add to wishlist from Product Listing Page**
+### Add to wishlist from Product Listing Page
 
 When you are in the homepage of the shop you can add product from the shop listing page by clicking the heart icon
 
@@ -13,7 +13,7 @@ When you are in the homepage of the shop you can add product from the shop listi
 
 
 
-**Add to wishlist from Product Single Page**
+### Add to wishlist from Product Single Page
 
 When you go to a product details page, You can add that item to your wishlist from that page clicking this button
 
@@ -24,7 +24,7 @@ When you go to a product details page, You can add that item to your wishlist fr
 
 
 
-**Multiple wishlist collection**
+### Multiple wishlist collection
 
 You can create, rename, duplicate and delete multiple wishlist from the store frontend. By either clicking the floating wishlist button or clicking the wishlist button in the header you can bring up your wishlist modal
 
@@ -38,7 +38,7 @@ From here you can rename, delete and duplicate your wishlist using these buttons
 
 
 
-**Show Wishlist as you want**
+### Show Wishlist as you want
 
 You can show your wishlist as a modal or drawer, to configure this, Open the shopify app embed and change Display mode.
 
