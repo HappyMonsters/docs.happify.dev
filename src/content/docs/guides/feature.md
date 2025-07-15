@@ -58,3 +58,26 @@ Here is the Drawer view
 
 
 ![](https://paper-attachments.dropboxusercontent.com/s_6CB2577CFA7DC257CF7F622996F62EAF37060A5E6CBF209B1010827B937B9F29_1752053151641_image.png)
+
+### Change Wishlist Location
+
+You can change your wishlist location as you want. To change your wishlist location, first go to your theme customization.
+
+
+![](https://paper-attachments.dropboxusercontent.com/s_6CB2577CFA7DC257CF7F622996F62EAF37060A5E6CBF209B1010827B937B9F29_1752046533277_image.png)
+
+
+Now go to app embed and click on the arrow beside “Happify Wishlist Embed”
+
+![](https://paper-attachments.dropboxusercontent.com/s_6CB2577CFA7DC257CF7F622996F62EAF37060A5E6CBF209B1010827B937B9F29_1752563082049_image.png)
+
+
+ From here, you can change Vertical Position and Horizontal Position to change the position of your wishlist button
+
+
+![](https://paper-attachments.dropboxusercontent.com/s_6CB2577CFA7DC257CF7F622996F62EAF37060A5E6CBF209B1010827B937B9F29_1752563272570_image.png)
+
+
+After changing these values, your wishlist location will change
+
+![](https://paper-attachments.dropboxusercontent.com/s_6CB2577CFA7DC257CF7F622996F62EAF37060A5E6CBF209B1010827B937B9F29_1752563332147_image.png)
