@@ -11,12 +11,23 @@ import remarkGistEmbed from "./src/plugins/remarkGistEmbed.js";
 import remarkAscinemaEmbed from "./src/plugins/remarkAscinemaEmbed.js";
 import remarkSoundcloudEmbed from "./src/plugins/remarkSoundcloudEmbed.js";
 
+import tailwindcss from "@tailwindcss/vite";
+import { file } from "astro/loaders";
+
 // https://astro.build/config
 export default defineConfig({
   integrations: [
     starlight({
-      title: "Happify Documentation",
+      title: " ",
+      logo: {
+        src: './src/assets/happify-logo.svg',
+      },
+      
       // social: [{ icon: "github", label: "GitHub", href: "#" }],
+      customCss: [
+        // Path to your Tailwind base styles:
+        './src/styles/global.css',
+      ],
       sidebar: [
         {
           label: "Documentation",
@@ -39,6 +50,7 @@ export default defineConfig({
       ],
     }),
   ],
+
   markdown: {
     remarkPlugins: [
       remarkYoutubeEmbed,
@@ -51,5 +63,9 @@ export default defineConfig({
       remarkAscinemaEmbed,
       remarkSoundcloudEmbed,
     ],
+  },
+
+  vite: {
+    plugins: [tailwindcss()],
   },
 });
