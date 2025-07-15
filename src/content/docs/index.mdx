@@ -5,7 +5,7 @@ template: splash
 hero:
   tagline: Click on the button to read read documentation!
   image:
-    file: ../../assets/happify-wishlist-logo.png
+    file: ../../assets/i1.png
     alt: Happify Wishlist
     style:
       width: 100px
@@ -16,11 +16,12 @@ hero:
       icon: right-arrow
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid } from "@astrojs/starlight/components";
+import { LinkButton } from "@astrojs/starlight/components";
 
 ## Explore More
 
-<CardGrid stagger>
+<CardGrid stagger->
   <Card 
     title="Shopify App Store" 
     icon="pencil"
@@ -31,7 +32,7 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
     Install Happify Wishlist from Shopify App Store.
   </Card>
 
-  <Card 
+  <Card  
     title="Visit Our Website" 
     icon="add-document"
     href="https://happify.dev"
@@ -39,5 +40,6 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
     target="_blank"
   >
     Check Out our website for more information.
+    <LinkButton class="mt-8 px-5 py-2" href="https://happify.dev/" target="_blank">View Demo</LinkButton>
   </Card>
 </CardGrid>
