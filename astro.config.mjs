@@ -18,36 +18,58 @@ import { file } from "astro/loaders";
 export default defineConfig({
   integrations: [
     starlight({
-      title: " ",
+      title: "Happify Wishlist Documentation",
       logo: {
         src: './src/assets/happify-logo.svg',
+        replacesTitle: true
       },
       
-      // social: [{ icon: "github", label: "GitHub", href: "#" }],
+      social: [
+        { 
+          icon: "github", 
+          label: "GitHub", 
+          href: "https://github.com/happify-dev/wishist" 
+        },
+        {
+          icon: "external",
+          label: "Website",
+          href: "https://happify.dev"
+        }
+      ],
+      
       customCss: [
-        // Path to your Tailwind base styles:
         './src/styles/global.css',
       ],
+      
       sidebar: [
         {
-          label: "Documentation",
+          label: "Getting Started",
           items: [
             { label: "Introduction", slug: "guides/introduction" },
             { label: "Getting Started", slug: "guides/started" },
+          ],
+        },
+        {
+          label: "Configuration",
+          items: [
             { label: "Dashboard Overview", slug: "guides/overview" },
-            { label: "Enabling App Embed", slug: "guides/embed" },
             { label: "Settings Familiarization", slug: "guides/settings" },
+            { label: "Enabling App Embed", slug: "guides/embed" },
+          ],
+        },
+        {
+          label: "Features",
+          items: [
             { label: "Alert Overview", slug: "guides/alert" },
             { label: "Alert Configuration", slug: "guides/alertconfiguration" },
             { label: "Customization", slug: "guides/customization" },
             { label: "Feature Overview", slug: "guides/feature" },
           ],
         },
-        // {
-        // 	label: 'Reference',
-        // 	autogenerate: { directory: 'reference' },
-        // },
       ],
+      
+      components: {
+      },
     }),
   ],
 

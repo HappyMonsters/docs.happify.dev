@@ -3,44 +3,79 @@ title: Happify Wishlist Docs
 description: Click on the button to read read documentation.
 template: splash
 hero:
-  tagline: Click on the button to read the documentation!
-  # image:
-  #   file: ../../assets/i1.png
-  #   alt: Happify Wishlist
-    # style:
-    #   width: 100px
-    #   height: 100px
+  image:
+    file: ../../assets/happify-logo.svg
+    alt: Happify Wishlist Logo
+  tagline: Transform your Shopify store with powerful wishlist features
   actions:
-    - text: Documentation
+    - text: Getting Started
       link: /guides/introduction/
       icon: right-arrow
+      variant: primary
+    - text: View Demo
+      link: https://happify.dev
+      icon: external
+      variant: secondary
 ---
 
 import { Card, CardGrid } from "@astrojs/starlight/components";
 import { LinkButton } from "@astrojs/starlight/components";
 
-## Explore More
+# Discover the Power of Happify Wishlist
 
-<CardGrid stagger->
+<div class="mb-8 text-lg text-slate-600 dark:text-slate-400 max-w-3xl text-center mx-auto">
+  Happify is the ultimate wishlist solution that will convert your browsers into buyers with advanced features and seamless integration.
+</div>
+
+<CardGrid stagger cols={2}>
   <Card
     title="Shopify App Store"
-    icon="pencil"
+    icon="basket"
     href="https://apps.shopify.com/happify-wishlist"
     rel="noopener noreferrer"
     target="_blank"
   >
-    Install Happify Wishlist from Shopify App Store.
+    Install Happify Wishlist directly from the Shopify App Store and start converting visitors today.
   </Card>
 
   <Card
     title="Visit Our Website"
-    icon="add-document"
+    icon="home"
     href="https://happify.dev"
     rel="noopener noreferrer"
     target="_blank"
   >
-    Check Out our website for more information.
-    <LinkButton class="mt-8 px-5 py-2" href="https://happify.dev/" target="_blank">View Website</LinkButton>
+    Check out our website for more information, demos, and customer success stories.
+  </Card>
+  
+  <Card
+    title="Quick Start Guide"
+    icon="document-text"
+    href="/guides/started"
+  >
+    Get up and running quickly with our step-by-step installation and setup guide.
+  </Card>
+
+  <Card
+    title="Feature Overview"
+    icon="sparkles"
+    href="/guides/feature"
+  >
+    Explore all the powerful features that make Happify the best wishlist solution for Shopify.
   </Card>
 
 </CardGrid>
+
+<div class="mt-12 text-center">
+  <LinkButton 
+    class="px-8 py-3 text-lg font-semibold" 
+    href="https://apps.shopify.com/happify-wishlist" 
+    target="_blank" 
+    variant="primary"
+  >
+    Install Now
+  </LinkButton>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">
+    Start your 7-day free trial • No credit card required
+  </p>
+</div>

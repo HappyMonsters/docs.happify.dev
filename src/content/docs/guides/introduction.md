@@ -3,14 +3,19 @@ title: Happify Documentation
 description: Happify is the wishlist app that will convert your browsers into buyers.
 ---
 
-Happify is the wishlist app that will convert your browsers into buyers. It features multiple features such as:
+> Happify is the wishlist app that will convert your browsers into buyers.
+
+## Key Features
 
 - Wishlist creation and management
-- Robust Email notifications
-- Configuring various alerts for your product
-- Integration with popular Shopify themes.
+- Robust email notifications
+- Configurable product alerts
+- Integration with popular Shopify themes
 
-And many more.
+> And many more.
 
+---
+
+### Next Steps
 
 Click on Getting Started to explore documentation.
